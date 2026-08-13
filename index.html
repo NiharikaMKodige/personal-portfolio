@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niharika M Kodige | About Me</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,12 +13,11 @@
         <p>Computer Science Engineering Student | Aspiring Software Engineer</p>
 
         <nav aria-label="Main navigation">
-            <a href="#about">About</a> |
-            <a href="#education">Education</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#project">Project</a> |
-            <a href="#interests">Interests</a> |
-            <a href="#experience">Experience</a> |
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#journey">Journey</a>
+            <a href="#interests">Beyond Code</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -26,40 +26,38 @@
         <section id="about">
             <h2>About Me</h2>
 
-            <img src="Niharika_M_Kodige_pic.jpeg"
-                 alt="Portrait of Niharika M Kodige"
-                 width="350">
+            <div class="about-content">
 
-            <p>
-                Hi! I'm Niharika M Kodige, a Computer Science and Engineering student
-                currently pursuing my Bachelor of Engineering at Sai Vidya Institute
-                of Technology. I am currently in my 7th semester and have a strong
-                interest in software development, web technologies, and artificial
-                intelligence.
-            </p>
+                <div class="about-image">
+                    <img src="Niharika_M_Kodige_pic.jpeg"
+                        alt="Portrait of Niharika M Kodige">
+                </div>
 
-            <p>
-                I enjoy learning by building and experimenting with new technologies.
-                I am particularly interested in web development, frontend development,
-                AI and machine learning, and databases. I am currently learning Java
-                Full Stack Development as I work towards becoming a software engineer.
-            </p>
-        </section>
+                <div class="about-text">
+                    <p>
+                        Hi! I'm Niharika M Kodige, a Computer Science and Engineering student
+                        currently pursuing my Bachelor of Engineering at Sai Vidya Institute
+                        of Technology. I am currently in my 7th semester and have a strong
+                        interest in software development, web technologies, and artificial
+                        intelligence.
+                    </p>
 
-        <section id="education">
-            <h2>Education</h2>
+                    <p>
+                        I enjoy learning by building and experimenting with new technologies.
+                        I am particularly interested in web development, frontend development,
+                        AI and machine learning, and databases. I am currently learning Java
+                        Full Stack Development as I work towards becoming a software engineer.
+                    </p>
+                </div>
 
-            <article>
-                <h3>Bachelor of Engineering - Computer Science and Engineering</h3>
-                <p>Sai Vidya Institute of Technology</p>
-                <p>Currently in 7th Semester</p>
-            </article>
+            </div>
         </section>
 
         <section id="skills">
-            <h2>Technical Skills</h2>
+            <h2>Skills & Technologies</h2>
 
             <h3>Programming & Development</h3>
+
             <ul>
                 <li>Python</li>
                 <li>Java</li>
@@ -72,6 +70,7 @@
             </ul>
 
             <h3>Currently Learning</h3>
+
             <p>
                 I am currently learning Java Full Stack Development and strengthening
                 my skills in software and web development.
@@ -100,53 +99,104 @@
             </article>
         </section>
 
-        <section id="interests">
-            <h2>My Interests</h2>
+        <section id="journey">
+            <h2>My Journey</h2>
 
-            <h3>Technology</h3>
-            <ul>
-                <li>Web Development</li>
-                <li>Frontend Development</li>
-                <li>Artificial Intelligence & Machine Learning</li>
-                <li>Databases</li>
-                <li>Exploring New Technologies</li>
-            </ul>
+            <div class="journey-grid">
 
-            <h3>Beyond Technology</h3>
+                <article>
+                    <span class="journey-label">EDUCATION</span>
 
-            <p>
-                Outside technology, I enjoy listening to music, particularly pop,
-                R&B, and electronic music. I enjoy reading both fiction and
-                non-fiction, and I occasionally spend my free time drawing and painting.
-            </p>
+                    <h3>Bachelor of Engineering</h3>
 
-            <p>
-                I have a strong interest in travelling and exploring new places,
-                especially destinations surrounded by nature. I also enjoy photography
-                and capturing aesthetic moments and landscapes along the way.
-            </p>
+                    <p>
+                        Computer Science and Engineering
+                    </p>
+
+                    <p>
+                        Sai Vidya Institute of Technology
+                    </p>
+
+                    <p>
+                        Currently in 7th Semester
+                    </p>
+                </article>
+
+
+                <article>
+                    <span class="journey-label">EXPERIENCE</span>
+
+                    <h3>24-Hour Hackathon</h3>
+
+                    <p>
+                        Participated in a 24-hour hackathon at RNSIT under the
+                        Autonomous Analytic track.
+                    </p>
+                </article>
+
+
+                <article>
+                    <span class="journey-label">CERTIFICATION</span>
+
+                    <h3>Generative AI Leader</h3>
+
+                    <p>
+                        Completed the Generative AI Leader track from Google Skills.
+                    </p>
+                </article>
+
+
+                <article>
+                    <span class="journey-label">CERTIFICATION</span>
+
+                    <h3>Cloud Computing & Distributed Systems</h3>
+
+                    <p>
+                        Completed the Cloud Computing & Distributed System course
+                        from NPTEL.
+                    </p>
+                </article>
+
+            </div>
         </section>
 
-        <section id="experience">
-            <h2>Learning & Experiences</h2>
+        <section id="interests">
+            <h2>Beyond Code</h2>
 
-            <ul>
-                <li>
-                    Participated in a 24-hour hackathon at RNSIT under the
-                    Autonomous Analytic track.
-                </li>
-                <li>
-                    Completed the Generative AI Leader track from Google Skills.
-                </li>
-                <li>
-                    Completed the Cloud Computing & Distributed System course from NPTEL.
-                </li>
-                <li>
-                    Attended AMD AI DevDay India 2026, exploring video generation
-                    with ComfyUI, LLM fine-tuning using Unsloth, and building
-                    OpenClaw agents.
-                </li>
-            </ul>
+            <div class="interests-grid">
+
+                <article>
+                    <h3>Technology</h3>
+
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Frontend Development</li>
+                        <li>Artificial Intelligence & Machine Learning</li>
+                        <li>Databases</li>
+                        <li>Exploring New Technologies</li>
+                    </ul>
+                </article>
+
+
+                <article>
+                    <h3>Outside Technology</h3>
+
+                    <p>
+                        Outside technology, I enjoy listening to music, particularly
+                        pop, R&B, and electronic music. I also enjoy reading both
+                        fiction and non-fiction, and occasionally spend my free time
+                        drawing and painting.
+                    </p>
+
+                    <p>
+                        I have a strong interest in travelling and exploring new
+                        places, especially destinations surrounded by nature. I also
+                        enjoy photography and capturing aesthetic moments and
+                        landscapes along the way.
+                    </p>
+                </article>
+
+            </div>
         </section>
 
         <section id="goals">
@@ -169,40 +219,79 @@
         <section id="contact">
             <h2>Let's Connect</h2>
 
-            <p>Feel free to connect with me through the links below:</p>
+            <p>
+                Have a question, want to collaborate, or simply want to say hello?
+                Feel free to reach out.
+            </p>
 
-            <ul>
-                <li>
-                    <a href="mailto:niharikamk24@gmail.com">Email</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/niharika-m-kodige"
-                       target="_blank"
-                       rel="noopener noreferrer">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="https://github.com/Niharika8651"
-                       target="_blank"
-                       rel="noopener noreferrer">GitHub</a>
-                </li>
-            </ul>
+            <div class="contact-links">
+
+                <a href="mailto:niharikamk24@gmail.com">
+                    <span>✉</span>
+                    Email
+                </a>
+
+                <a href="https://www.linkedin.com/in/niharika-m-kodige"
+                target="_blank"
+                rel="noopener noreferrer">
+                    <span>in</span>
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/NiharikaMKodige"
+                target="_blank"
+                rel="noopener noreferrer">
+                    <span>⌘</span>
+                    GitHub
+                </a>
+
+            </div>
 
             <h3>Send Me a Message</h3>
 
-            <form action="#" method="post">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden"
+                    name="access_key"
+                    value="283b50d1-d730-4702-97c0-b8d50404d4e1">
+
+                <input type="hidden"
+                    name="subject"
+                    value="New Message from Niharika's Portfolio">
+
+                <input type="hidden"
+                    name="from_name"
+                    value="Niharika Portfolio">
+
+                <input type="checkbox"
+                    name="botcheck"
+                    style="display: none;">
+
                 <p>
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name:</label>
+                    <input type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your name"
+                        required>
                 </p>
 
                 <p>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email:</label>
+                    <input type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your email address"
+                        required>
                 </p>
 
                 <p>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                    <label for="message">Message:</label>
+                    <textarea id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message here..."
+                            required></textarea>
                 </p>
 
                 <button type="submit">Send Message</button>
