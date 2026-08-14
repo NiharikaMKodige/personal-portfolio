@@ -173,7 +173,7 @@ section p {
 
 
 /* =========================================
-   ABOUT ME
+   6. ABOUT ME
    ========================================= */
 
 #about h2 {
@@ -193,19 +193,21 @@ section p {
 }
 
 .about-image img {
-    width: 260px;
-    height: 260px;
-    object-fit: cover;
-    border-radius: 24px;
-    border: 5px solid white;
-    outline: 3px solid #7c3aed;
-    box-shadow: 0 15px 35px rgba(124, 58, 237, 0.18);
-    transition: 0.3s ease;
-}
+    display: block;
+    width: 280px;
+    height: auto;
+    max-width: 100%;
+
+    border-radius: 18px;
+
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.15);
+
+    transition: transform 0.3s ease;
+    }
 
 .about-image img:hover {
-    transform: scale(1.03);
-}
+    transform: translateY(-4px);
+    }
 
 .about-text {
     display: flex;
@@ -340,7 +342,7 @@ section p {
 
 
 /* =========================================
-   CONTACT LINKS
+   13. CONTACT LINKS
    ========================================= */
 
 .contact-links {
@@ -453,11 +455,28 @@ button:hover {
 
 footer {
     background: #0f172a;
-    color: #94a3b8;
+    color: #cbd5e1;
     text-align: center;
-    padding: 25px;
-    font-size: 0.9rem;
-}
+    padding: 45px 20px;
+    margin-top: 20px;
+    }
+
+.footer-name {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    }
+
+footer p {
+    margin: 4px 0;
+    }
+
+.footer-copy {
+    margin-top: 18px !important;
+    color: #64748b;
+    font-size: 0.85rem;
+    }
 
 
 /* =========================================
